@@ -26,8 +26,8 @@ function addInCartCountChange(value) {
     let oldValue = 999;
 
     let newValue;
-    let newValue = oldValue;
-    let newValue = oldValue + 1;
+    newValue = oldValue;
+    newValue = oldValue + 1;
 
     // Конец решения задания №1.2.
 
@@ -42,7 +42,7 @@ function addInCartSumChange(sum, delta) {
 
     let newSum = oldSum + difference;
     let newSumText = newSum + ' ₽';
-    let newSumText = `${newSum} ₽`;
+    newSumText = `${newSum} ₽`;
 
     // Конец решения задания №1.3.
 
