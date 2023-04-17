@@ -15,12 +15,12 @@ function renderCartItem(item) {
     // например,
     // 5 × 500.00 ₽ = 2500 ₽
     let itemCountText = '';
-    itemCountText += `${product.count}`;
+    itemCountText += product.count;
     itemCountText += ` × `;
-    itemCountText += `${product.price} ₽`;
+    itemCountText += product.price;
     itemCountText += ` ₽ = `;
     let sum = product.count * product.price;
-    itemCountText += `${sum}`;
+    itemCountText += sum;
     itemCountText += ` ₽`;
 
     // Конец решения задания №3.1.
